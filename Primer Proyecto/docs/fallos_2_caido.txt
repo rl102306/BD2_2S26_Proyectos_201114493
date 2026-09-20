@@ -1,0 +1,10 @@
+
+========================================================================
+ESCENARIO: nodo cass3 caido
+Consulta: manifiesto del vuelo AV369
+Repeticiones por nivel: 30
+========================================================================
+CL        exitosas  fallidas   prom(ms)   min(ms)   p95(ms)  error
+ONE             30         0       3.50      3.03      4.26  
+QUORUM          30         0       6.08      5.11      6.69  
+ALL              0        30          -         -         -  Unavailable

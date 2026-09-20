@@ -1,0 +1,31 @@
+Preparando statements...
+Insertando 25000 pasajeros...
+  OK (3.5s)
+Insertando 40 aeronaves...
+  OK
+Generando 520 vuelos con sus reservas...
+  vuelos 25/520 - reservas: 4789 (8s)
+  vuelos 50/520 - reservas: 9427 (12s)
+  vuelos 75/520 - reservas: 13963 (17s)
+  vuelos 100/520 - reservas: 18753 (21s)
+  vuelos 125/520 - reservas: 23344 (26s)
+  vuelos 150/520 - reservas: 28163 (31s)
+  vuelos 175/520 - reservas: 32850 (35s)
+  vuelos 200/520 - reservas: 37801 (40s)
+  vuelos 225/520 - reservas: 42521 (45s)
+  vuelos 250/520 - reservas: 47465 (50s)
+  vuelos 275/520 - reservas: 51958 (55s)
+  vuelos 300/520 - reservas: 57156 (60s)
+  vuelos 325/520 - reservas: 62344 (65s)
+  vuelos 350/520 - reservas: 67238 (69s)
+  vuelos 375/520 - reservas: 72257 (74s)
+  vuelos 400/520 - reservas: 76901 (80s)
+  vuelos 425/520 - reservas: 81659 (84s)
+  vuelos 450/520 - reservas: 86189 (89s)
+  vuelos 475/520 - reservas: 91105 (93s)
+  vuelos 500/520 - reservas: 96144 (99s)
+Reservas insertadas: 100080
+Construyendo tabla de ranking de ingresos...
+
+Carga finalizada en 105.1s
+Total de reservas: 100080

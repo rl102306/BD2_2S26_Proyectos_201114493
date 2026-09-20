@@ -1,0 +1,58 @@
+PARAMETROS DE PRUEBA
+  vuelo_id    = 5e8120ae-9633-4f76-890a-fd3502e41bd9
+  codigo      = AV369 (IAH -> SAL)
+  pasajero_id = 8d92b228-e768-4fa8-8090-39af7b49df67
+  anio_mes    = 2026-09
+
+=== Q1 Disponibilidad de asientos por clase ===
+CQL: SELECT clase, asientos_ocupados, asientos_disponibles FROM disponibilidad_por_clase WHERE vuelo_id=%s
+Latencia: 273.00 ms | filas devueltas: 3
+    Row(clase='economica', asientos_ocupados=131, asientos_disponibles=67)
+    Row(clase='ejecutiva', asientos_ocupados=27, asientos_disponibles=3)
+    Row(clase='primera', asientos_ocupados=6, asientos_disponibles=6)
+
+=== Q1b Capacidad por clase (tabla complementaria) ===
+CQL: SELECT clase, capacidad_clase FROM capacidad_por_clase WHERE vuelo_id=%s
+Latencia: 132.48 ms | filas devueltas: 3
+    Row(clase='economica', capacidad_clase=198)
+    Row(clase='ejecutiva', capacidad_clase=30)
+    Row(clase='primera', capacidad_clase=12)
+
+=== Q2 Historial cronologico de un pasajero ===
+CQL: SELECT fecha_reserva, codigo_vuelo, origen, destino, numero_asiento, clase, estado_reserva, estado_pago, monto FROM reservas_por_pasajero WHERE pasajero_id=%s AND fecha_reserva>=%s AND fecha_reserva<=%s
+Latencia: 1970.69 ms | filas devueltas: 5
+    Row(fecha_reserva=datetime.datetime(2026, 9, 20, 7, 0), codigo_vuelo='AV238', origen='BOG', destino='GUA', numero_asiento='036B', clase='economica', estado_reserva='confirmada', estado_pago='pagado', monto=Decimal('394.33'))
+    Row(fecha_reserva=datetime.datetime(2026, 7, 23, 9, 0), codigo_vuelo='AV162', origen='GUA', destino='SJO', numero_asiento='042D', clase='economica', estado_reserva='confirmada', estado_pago='pagado', monto=Decimal('137.59'))
+    Row(fecha_reserva=datetime.datetime(2026, 6, 15, 15, 0), codigo_vuelo='AV950', origen='YYZ', destino='BOG', numero_asiento='001A', clase='primera', estado_reserva='confirmada', estado_pago='pagado', monto=Decimal('1225.31'))
+    Row(fecha_reserva=datetime.datetime(2026, 4, 8, 16, 0), codigo_vuelo='AV805', origen='LAX', destino='MEX', numero_asiento='043A', clase='economica', estado_reserva='confirmada', estado_pago='pagado', monto=Decimal('98.00'))
+    Row(fecha_reserva=datetime.datetime(2026, 3, 30, 16, 0), codigo_vuelo='AV907', origen='SJO', destino='MEX', numero_asiento='029C', clase='economica', estado_reserva='cancelada', estado_pago='reembolsado', monto=Decimal('328.41'))
+
+=== Q3 Manifiesto de vuelo ordenado por asiento ===
+CQL: SELECT numero_asiento, nombre_pasajero, documento, clase, estado_reserva, estado_pago FROM manifiesto_por_vuelo WHERE vuelo_id=%s
+Latencia: 126.32 ms | filas devueltas: 164
+    Row(numero_asiento='001A', nombre_pasajero='Jorge Aguilar Ramirez', documento='1112-32061-7468', clase='primera', estado_reserva='confirmada', estado_pago='pagado')
+    Row(numero_asiento='001B', nombre_pasajero='Sofia Mendoza Gomez', documento='1571-54278-3017', clase='primera', estado_reserva='confirmada', estado_pago='pagado')
+    Row(numero_asiento='001D', nombre_pasajero='Camila Vasquez Lopez', documento='4981-56784-6143', clase='primera', estado_reserva='confirmada', estado_pago='pagado')
+    Row(numero_asiento='001E', nombre_pasajero='Daniela Reyes Rodriguez', documento='8498-50382-3189', clase='primera', estado_reserva='confirmada', estado_pago='pagado')
+    Row(numero_asiento='002A', nombre_pasajero='Rodrigo Reyes Castillo', documento='5379-59512-4065', clase='primera', estado_reserva='confirmada', estado_pago='pagado')
+    Row(numero_asiento='002B', nombre_pasajero='Daniela Gomez Morales', documento='9566-21792-9029', clase='primera', estado_reserva='confirmada', estado_pago='pagado')
+
+=== Q4 Porcentaje de ocupacion ruta IAH->SAL, mes 2026-09 ===
+Latencia (2 consultas): 105.99 ms
+    AV369  2026-09-10  131/240 = 54.6% ocupacion
+
+=== Q5 Top 10 vuelos por ingresos generados (2026-09) ===
+CQL: SELECT codigo_vuelo, origen, destino, monto_total FROM top_ingresos_por_mes WHERE anio_mes=%s LIMIT 10
+Latencia: 77.81 ms | filas devueltas: 10
+    Row(codigo_vuelo='AV945', origen='SAL', destino='LIM', monto_total=8988938)
+    Row(codigo_vuelo='AV701', origen='IAH', destino='LAX', monto_total=8324667)
+    Row(codigo_vuelo='AV286', origen='PTY', destino='MEX', monto_total=8243959)
+    Row(codigo_vuelo='AV714', origen='YYZ', destino='SCL', monto_total=7708762)
+    Row(codigo_vuelo='AV842', origen='LAX', destino='PTY', monto_total=7692051)
+    Row(codigo_vuelo='AV225', origen='MEX', destino='MIA', monto_total=7522727)
+    Row(codigo_vuelo='AV978', origen='SCL', destino='JFK', monto_total=7493668)
+    Row(codigo_vuelo='AV420', origen='LIM', destino='LAX', monto_total=7362865)
+    Row(codigo_vuelo='AV889', origen='LIM', destino='SJO', monto_total=7349759)
+    Row(codigo_vuelo='AV438', origen='JFK', destino='LIM', monto_total=7231214)
+
+Nota: los montos de Q5 estan en centavos.

@@ -1,0 +1,17 @@
+PARAMETROS
+  vuelo    : AV369 IAH->SAL  5e8120ae-9633-4f76-890a-fd3502e41bd9
+  pasajero : 8d92b228-e768-4fa8-8090-39af7b49df67
+  ruta Q4  : PTY->LIM 2026-07 (2 vuelos)
+
+Latencias sobre 20 ejecuciones, Consistency Level QUORUM
+
+Q1 Disponibilidad por clase (counter)                filas=   3  prom=   8.70 ms  min=  2.73  p95=  20.23
+Q2 Historial de pasajero (rango sobre clustering key) filas=   5  prom=  54.54 ms  min=  4.34  p95= 120.32
+Q3 Manifiesto de vuelo (denormalizado, 1 particion)  filas= 164  prom=  27.05 ms  min=  7.15  p95=  92.38
+Q4a Contador de confirmadas por ruta-mes (bucketing) filas=   2  prom=   3.95 ms  min=  2.78  p95=   5.06
+Q4b Capacidad por ruta-mes                           filas=   2  prom=   5.32 ms  min=  3.28  p95=   5.27
+Q5 Top 10 por ingresos (clustering DESC + LIMIT)     filas=  10  prom=   6.20 ms  min=  2.73  p95=   8.64
+
+Q4 resultado: ocupacion ruta PTY->LIM en 2026-07
+    AV663  2026-07-23  144/240  =  60.0%
+    AV313  2026-07-27  131/240  =  54.6%

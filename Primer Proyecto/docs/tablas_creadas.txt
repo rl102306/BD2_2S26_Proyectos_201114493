@@ -1,0 +1,7 @@
+
+aeronaves_por_id          manifiesto_por_vuelo           reservas_por_pasajero
+asientos_por_vuelo        pagos_por_reserva              reservas_por_ruta_mes
+capacidad_por_clase       pasajeros_por_id               top_ingresos_por_mes 
+disponibilidad_por_clase  reservas_pendientes_por_vuelo  vuelos_por_id        
+ingresos_por_vuelo        reservas_por_id                vuelos_por_ruta_mes  
+

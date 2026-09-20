@@ -1,0 +1,10 @@
+
+========================================================================
+ESCENARIO: cluster recuperado
+Consulta: manifiesto del vuelo AV369
+Repeticiones por nivel: 30
+========================================================================
+CL        exitosas  fallidas   prom(ms)   min(ms)   p95(ms)  error
+ONE             30         0       7.89      3.30     26.90  
+QUORUM          30         0       7.86      6.35     10.88  
+ALL             30         0       8.14      6.61      9.89  

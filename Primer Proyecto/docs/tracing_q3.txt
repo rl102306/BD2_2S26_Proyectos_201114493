@@ -1,0 +1,40 @@
+           040F |           Jorge Reyes Ortiz
+
+(164 rows)
+<stdin>:1:SyntaxException: line 1:0 no viable alternative at input ';' ([;])
+
+Tracing session: 9a21e1e0-b493-11f1-94f4-edb5762c5cc4
+
+ activity                                                                                                                                                     | timestamp                  | source     | source_elapsed | client
+--------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+------------+----------------+-----------
+                                                                                                                                           Execute CQL3 query | 2026-09-20 01:35:46.520000 | 172.19.0.2 |              0 | 127.0.0.1
+ Parsing SELECT numero_asiento, nombre_pasajero FROM manifiesto_por_vuelo WHERE vuelo_id=5e8120ae-9633-4f76-890a-fd3502e41bd9; [Native-Transport-Requests-10] | 2026-09-20 01:35:46.642000 | 172.19.0.2 |         174424 | 127.0.0.1
+                                                                                                           Preparing statement [Native-Transport-Requests-10] | 2026-09-20 01:35:46.642001 | 172.19.0.2 |         174847 | 127.0.0.1
+                                   speculating read retry on Full(/172.19.0.4:7000,(9170223130327879890,-8866815246907887275]) [Native-Transport-Requests-10] | 2026-09-20 01:35:46.643000 | 172.19.0.2 |         175332 | 127.0.0.1
+                                                                                       Executing single-partition query on manifiesto_por_vuelo [ReadStage-1] | 2026-09-20 01:35:46.643001 | 172.19.0.2 |         175351 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-09-20 01:35:46.643002 | 172.19.0.2 |         175514 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-09-20 01:35:46.643003 | 172.19.0.2 |         175765 | 127.0.0.1
+                                                                                                                   Key cache hit for sstable 15 [ReadStage-1] | 2026-09-20 01:35:46.644000 | 172.19.0.2 |         175953 | 127.0.0.1
+                                                                Sending READ_REQ message to /172.19.0.4:7000 message size 195 bytes [Messaging-EventLoop-3-1] | 2026-09-20 01:35:46.644001 | 172.19.0.2 |         176255 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-1] | 2026-09-20 01:35:46.644002 | 172.19.0.2 |         176902 | 127.0.0.1
+                                                                                                       Read 100 live rows and 0 tombstone cells [ReadStage-1] | 2026-09-20 01:35:46.645000 | 172.19.0.2 |         177060 | 127.0.0.1
+                                                                                                                                             Request complete | 2026-09-20 01:35:46.698368 | 172.19.0.2 |         178368 | 127.0.0.1
+
+
+Tracing session: 9a4436f0-b493-11f1-94f4-edb5762c5cc4
+
+ activity                                                                                                                                                     | timestamp                  | source     | source_elapsed | client
+--------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+------------+----------------+-----------
+                                                                                                                                           Execute CQL3 query | 2026-09-20 01:35:46.656000 | 172.19.0.2 |              0 | 127.0.0.1
+ Parsing SELECT numero_asiento, nombre_pasajero FROM manifiesto_por_vuelo WHERE vuelo_id=5e8120ae-9633-4f76-890a-fd3502e41bd9; [Native-Transport-Requests-10] | 2026-09-20 01:35:46.656000 | 172.19.0.2 |            191 | 127.0.0.1
+                                                                                                           Preparing statement [Native-Transport-Requests-10] | 2026-09-20 01:35:46.656001 | 172.19.0.2 |            313 | 127.0.0.1
+                                   speculating read retry on Full(/172.19.0.4:7000,(9170223130327879890,-8866815246907887275]) [Native-Transport-Requests-10] | 2026-09-20 01:35:46.792000 | 172.19.0.2 |         136121 | 127.0.0.1
+                                                                                       Executing single-partition query on manifiesto_por_vuelo [ReadStage-1] | 2026-09-20 01:35:46.792001 | 172.19.0.2 |         136277 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-09-20 01:35:46.792002 | 172.19.0.2 |         136626 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-09-20 01:35:46.792003 | 172.19.0.2 |         136845 | 127.0.0.1
+                                                                                                                   Key cache hit for sstable 15 [ReadStage-1] | 2026-09-20 01:35:46.793000 | 172.19.0.2 |         137020 | 127.0.0.1
+                                                                Sending READ_REQ message to /172.19.0.4:7000 message size 223 bytes [Messaging-EventLoop-3-1] | 2026-09-20 01:35:46.793001 | 172.19.0.2 |         137210 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-1] | 2026-09-20 01:35:46.794000 | 172.19.0.2 |         138610 | 127.0.0.1
+                                                                                                        Read 64 live rows and 0 tombstone cells [ReadStage-1] | 2026-09-20 01:35:46.795000 | 172.19.0.2 |         138969 | 127.0.0.1
+                                                                                                                                             Request complete | 2026-09-20 01:35:46.795870 | 172.19.0.2 |         139870 | 127.0.0.1
+

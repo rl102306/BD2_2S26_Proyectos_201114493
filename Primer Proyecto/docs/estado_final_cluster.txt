@@ -1,0 +1,28 @@
+Cluster Information:
+	Name: aerolinea_cluster
+	Snitch: org.apache.cassandra.locator.GossipingPropertyFileSnitch
+	DynamicEndPointSnitch: enabled
+	Partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+	Schema versions:
+		c0a83ba0-2732-3dcc-92d1-e872ba8b4bd1: [172.19.0.3, 172.19.0.2, 172.19.0.4]
+
+Stats for all nodes:
+	Live: 3
+	Joining: 0
+	Moving: 0
+	Leaving: 0
+	Unreachable: 0
+
+Data Centers: 
+	dc1 #Nodes: 3 #Down: 0
+
+Database versions:
+	4.1.12: [172.19.0.3:7000, 172.19.0.2:7000, 172.19.0.4:7000]
+
+Keyspaces:
+	system_traces -> Replication class: SimpleStrategy {replication_factor=2}
+	system_distributed -> Replication class: SimpleStrategy {replication_factor=3}
+	system_auth -> Replication class: SimpleStrategy {replication_factor=1}
+	aerolinea -> Replication class: NetworkTopologyStrategy {dc1=3}
+	system_schema -> Replication class: LocalStrategy {}
+	system -> Replication class: LocalStrategy {}
