@@ -1,0 +1,101 @@
+chefId,nombre,fecha_nacimiento,nacionalidad
+1,Rebeca Verónica Guzmán,1972-01-01,Francesa
+2,Francisca Regalado Cepeda,1966-06-13,Peruana
+3,Lic. Frida Trujillo,1996-01-27,Japonesa
+4,Ruby Gamboa,1969-01-07,Española
+5,Dra. Úrsula Montaño,1998-07-20,Guatemalteca
+6,Ernesto Pascual Torres Medrano,1989-11-27,Italiana
+7,Noemí Rosado Verduzco,1984-03-06,Guatemalteca
+8,Tania Nadia Lira,1996-10-04,Italiana
+9,Adriana Miriam Carbajal,1961-10-26,Estadounidense
+10,Amador Andrés Feliciano Jaramillo,1991-07-17,Colombiana
+11,Hugo Gilberto Concepción Bañuelos,1989-02-04,Japonesa
+12,Dr. Reynaldo Apodaca,1975-06-28,Española
+13,Aurora Rocío Valenzuela Garrido,1991-03-22,Peruana
+14,Julia Granados,1981-09-24,Guatemalteca
+15,Sr. Juan Ontiveros,1977-11-11,Guatemalteca
+16,Nelly Ayala Alcántar,1991-04-10,Peruana
+17,Wilfrido Quintero,1994-10-24,Española
+18,Patricia Treviño Zavala,1968-11-02,Española
+19,Ignacio Rangel,1968-01-21,Francesa
+20,Esteban Eric Serrano,1965-09-04,Estadounidense
+21,Marco Antonio Leiva Valadez,1971-08-13,Italiana
+22,Serafín Gonzalo Adame Menéndez,1979-11-26,Colombiana
+23,Alfredo Elias Medrano Zambrano,1962-11-13,Francesa
+24,Dra. Marisela Vega,1983-05-04,Peruana
+25,Jaime Ramón Garay,2000-01-07,Francesa
+26,Andrea Santiago,1967-04-26,Mexicana
+27,Nancy Páez,1964-07-20,Peruana
+28,Fidel Meraz,1974-05-10,Estadounidense
+29,Dr. Wilfrido Tamez,1980-04-01,Italiana
+30,Silvia Aguirre,1965-06-26,Española
+31,Marcela Guajardo Guerrero,2000-02-05,Mexicana
+32,Juana Carrera Olvera,1971-04-21,Guatemalteca
+33,Sr. Rafaél Noriega,1981-11-13,Italiana
+34,Marcela Ruiz,1962-07-31,Peruana
+35,Javier Serrano,1964-02-28,Japonesa
+36,Emilio René Tejeda,1961-01-30,Colombiana
+37,Fernando Fidel Pineda,1995-01-17,Mexicana
+38,René Puga,1987-04-17,Colombiana
+39,Elias Alberto Rico,1990-03-05,Estadounidense
+40,Benjamín Benavides Ayala,1968-01-30,Francesa
+41,Sr. Samuel Gil,1998-02-18,Mexicana
+42,Julia Margarita Palacios,1978-07-15,Colombiana
+43,Julio Casanova Téllez,1961-01-09,Guatemalteca
+44,Sra. Paola Armenta,1989-07-08,Argentina
+45,José Carlos Pascual Caraballo,1972-08-31,Peruana
+46,Sr. Horacio Quezada,1976-06-02,Peruana
+47,Nicolás Cortez Tejeda,1969-10-18,Italiana
+48,Natividad Francisca Colón,1973-01-01,Estadounidense
+49,Adela Uribe Vaca,1966-07-31,Mexicana
+50,Abelardo Vega Ybarra,1976-12-09,Estadounidense
+51,Antonia Magaña,1969-05-24,Colombiana
+52,Dolores Paz Sepúlveda,1966-08-16,Francesa
+53,Francisco Víctor Hernádez Esquibel,1965-06-25,Peruana
+54,Sra. Nayeli Riojas,1987-03-20,Peruana
+55,Humberto Armando Henríquez,1964-10-22,Francesa
+56,Ing. Hermelinda Munguía,1966-01-15,Guatemalteca
+57,Bruno Linares,1986-03-08,Estadounidense
+58,Jaime Ruelas,1979-04-05,Colombiana
+59,Dra. Verónica Viera,1967-01-12,Japonesa
+60,Dra. Graciela Porras,1967-09-12,Peruana
+61,Emilia García Pulido,1972-02-16,Italiana
+62,Carla Meraz Rosado,1979-10-05,Peruana
+63,Georgina Ruiz Ureña,1965-03-30,Española
+64,Sra. Eugenia Cintrón,1997-04-29,Argentina
+65,Guillermo Bermúdez,1990-08-10,Guatemalteca
+66,Patricio Angulo Verdugo,1984-07-08,Mexicana
+67,Srita. Alta  Gracia Ureña,1971-06-20,Colombiana
+68,María Eugenia Córdova,1975-10-13,Francesa
+69,Sergio López,1966-04-09,Japonesa
+70,Mercedes Bustamante,1977-01-18,Italiana
+71,Adela Griego,1995-07-20,Japonesa
+72,Srita. Micaela Cintrón,1979-01-29,Guatemalteca
+73,Rubén Rubén Concepción Roybal,1999-04-16,Española
+74,Francisco Saavedra Gómez,1963-05-12,Española
+75,Eloisa Arias Fonseca,1982-01-06,Francesa
+76,Julia Rodarte Rentería,1996-12-04,Argentina
+77,Javier Candelaria Soliz,1986-10-04,Estadounidense
+78,Ing. Santiago Tovar,1984-02-28,Española
+79,Socorro Josefina Navarrete,1984-11-16,Francesa
+80,Rafaél Gilberto Ocampo,2000-08-29,Argentina
+81,Rafaél Palomino,1975-04-02,Guatemalteca
+82,Mariana Rosario Zayas,1961-01-19,Colombiana
+83,Mario Emilio Godínez Bermúdez,1981-11-17,Guatemalteca
+84,Dr. Eduardo Escobar,1967-03-27,Francesa
+85,Sra. Soledad Godínez,1977-10-12,Colombiana
+86,Yuridia Carrera Rosario,1988-06-19,Francesa
+87,Diana Paulina Cuellar Partida,1961-09-14,Guatemalteca
+88,Cristian Vela Villarreal,1967-05-22,Peruana
+89,Amalia Vega,1966-10-21,Peruana
+90,Gregorio Espartaco Sierra Palomino,1985-05-10,Guatemalteca
+91,Sra. Yuridia Limón,1999-08-15,Japonesa
+92,Mateo Zepeda,2001-06-26,Japonesa
+93,Claudia Dulce María Partida Zaragoza,1966-08-20,Española
+94,Srita. Rosalia Segura,1971-08-18,Española
+95,María Ybarra Villanueva,1963-08-09,Colombiana
+96,Judith Caridad Cardona,1961-06-18,Colombiana
+97,Mayte Perea,1994-09-02,Peruana
+98,Sra. Conchita Rolón,1997-09-30,Japonesa
+99,Sra. Nadia Santacruz,1991-08-18,Argentina
+100,Óliver Cristobal Zavala,1982-11-22,Guatemalteca

@@ -1,0 +1,204 @@
+chefId,restId,fecha_inicio,puesto
+1,61,2024-04-29,Sous Chef
+1,30,2023-03-20,Chef Pastelero
+1,133,2017-04-12,Chef Pastelero
+2,65,2021-01-20,Chef Pastelero
+2,19,2022-08-12,Chef Principal
+2,151,2015-07-15,Sous Chef
+3,48,2018-07-25,Chef Ejecutivo
+4,132,2017-03-25,Sous Chef
+4,23,2022-01-03,Chef Principal
+4,160,2016-09-06,Sous Chef
+5,67,2018-04-07,Chef de Partida
+5,167,2017-12-21,Chef Principal
+6,90,2023-08-15,Chef de Partida
+6,186,2020-05-29,Sous Chef
+6,73,2019-12-23,Chef de Línea
+7,182,2024-05-18,Sous Chef
+7,154,2018-04-03,Chef de Partida
+8,174,2022-09-11,Chef Pastelero
+8,187,2024-02-23,Chef Ejecutivo
+9,80,2019-07-30,Chef Pastelero
+9,7,2021-04-04,Chef Pastelero
+10,146,2021-06-24,Chef Principal
+10,198,2017-12-04,Sous Chef
+11,175,2023-08-28,Chef Pastelero
+12,56,2020-04-18,Chef Pastelero
+13,137,2020-01-29,Chef Pastelero
+13,43,2015-12-16,Chef de Línea
+13,49,2016-06-20,Chef de Partida
+14,155,2021-02-08,Chef Pastelero
+14,53,2020-10-21,Chef Pastelero
+14,8,2021-04-28,Chef Ejecutivo
+15,18,2015-11-11,Sous Chef
+15,46,2015-12-04,Sous Chef
+15,129,2019-07-21,Sous Chef
+16,183,2016-04-02,Chef de Partida
+16,143,2019-11-15,Chef Pastelero
+17,9,2016-12-09,Chef Pastelero
+18,44,2022-12-15,Chef de Partida
+19,27,2017-02-25,Chef de Partida
+19,156,2019-09-14,Sous Chef
+19,52,2023-12-09,Chef de Línea
+20,75,2020-06-18,Chef Principal
+20,59,2017-01-20,Chef de Línea
+21,129,2017-11-06,Chef Ejecutivo
+22,26,2022-10-26,Sous Chef
+22,43,2015-08-28,Chef Ejecutivo
+22,91,2017-12-22,Sous Chef
+23,12,2021-04-23,Chef Ejecutivo
+24,41,2022-04-15,Chef Ejecutivo
+24,129,2016-09-20,Chef de Partida
+24,196,2020-05-26,Chef de Línea
+25,169,2019-11-01,Chef Principal
+25,108,2020-03-25,Chef de Línea
+26,7,2017-02-28,Chef Ejecutivo
+27,44,2023-05-13,Chef de Partida
+27,153,2015-07-25,Chef de Línea
+28,56,2015-11-26,Sous Chef
+28,122,2020-06-17,Chef Pastelero
+28,90,2022-08-26,Chef de Línea
+29,136,2018-05-26,Chef Principal
+29,29,2022-04-28,Chef Ejecutivo
+30,153,2020-07-19,Chef de Línea
+30,189,2021-11-22,Chef Ejecutivo
+30,98,2021-03-29,Chef de Partida
+31,18,2016-09-20,Chef Ejecutivo
+31,160,2020-09-14,Chef Principal
+32,160,2019-10-14,Chef de Partida
+32,192,2017-10-19,Chef de Línea
+33,24,2017-12-10,Chef Ejecutivo
+33,146,2019-03-09,Chef Pastelero
+34,75,2018-11-22,Chef Principal
+34,193,2024-01-17,Chef de Línea
+34,175,2017-05-26,Chef Principal
+35,14,2015-07-12,Chef Pastelero
+35,26,2019-01-29,Sous Chef
+36,116,2021-12-03,Chef Pastelero
+36,182,2016-11-05,Sous Chef
+36,156,2018-10-23,Chef Pastelero
+37,169,2015-07-13,Sous Chef
+37,181,2016-12-16,Chef de Partida
+37,83,2021-12-02,Sous Chef
+38,31,2023-08-01,Sous Chef
+38,170,2020-04-29,Sous Chef
+38,41,2019-03-08,Chef de Partida
+39,174,2021-05-24,Chef de Partida
+39,200,2018-07-13,Chef Principal
+40,64,2022-08-21,Chef Ejecutivo
+41,148,2021-02-13,Sous Chef
+41,82,2018-09-14,Chef de Partida
+42,121,2016-08-31,Sous Chef
+42,113,2021-12-09,Chef Pastelero
+43,171,2020-10-31,Sous Chef
+43,125,2021-04-27,Chef Ejecutivo
+44,82,2019-07-26,Sous Chef
+44,21,2021-02-04,Chef Ejecutivo
+45,110,2019-07-15,Chef Pastelero
+45,47,2021-12-20,Chef de Partida
+46,156,2022-10-15,Chef de Línea
+47,118,2017-05-04,Chef Pastelero
+48,35,2023-02-13,Chef Ejecutivo
+48,44,2020-08-08,Chef Pastelero
+48,159,2018-01-28,Chef de Línea
+49,56,2019-06-27,Chef Ejecutivo
+50,163,2023-08-19,Chef de Partida
+50,171,2018-05-28,Chef de Partida
+51,174,2023-01-19,Sous Chef
+52,21,2019-04-16,Chef de Partida
+52,157,2015-03-21,Chef Principal
+52,93,2024-04-17,Chef de Partida
+53,134,2018-05-16,Chef Ejecutivo
+53,72,2022-03-03,Chef de Partida
+53,144,2021-05-26,Sous Chef
+54,138,2017-07-06,Chef de Partida
+55,103,2016-07-01,Sous Chef
+55,9,2024-05-23,Chef de Línea
+55,182,2017-08-16,Chef de Partida
+56,21,2022-06-09,Chef Pastelero
+57,131,2019-07-22,Sous Chef
+57,163,2019-08-29,Chef de Línea
+58,139,2023-03-31,Chef Ejecutivo
+59,138,2019-05-24,Chef Ejecutivo
+59,65,2020-04-27,Chef Ejecutivo
+60,68,2022-07-09,Chef Principal
+60,59,2016-03-05,Chef Pastelero
+60,87,2019-03-15,Chef de Línea
+61,21,2019-11-28,Sous Chef
+62,17,2021-01-25,Chef Principal
+62,9,2024-03-28,Chef de Partida
+63,102,2022-03-26,Chef Ejecutivo
+63,52,2023-06-22,Chef de Partida
+64,175,2019-06-15,Chef Ejecutivo
+64,152,2023-08-06,Sous Chef
+65,86,2020-11-30,Chef de Línea
+65,13,2022-12-24,Chef de Línea
+66,125,2020-09-02,Chef de Partida
+66,93,2017-03-07,Chef Pastelero
+66,86,2021-08-15,Chef de Línea
+67,123,2024-05-30,Chef Ejecutivo
+67,138,2019-10-11,Chef Principal
+67,131,2019-09-14,Chef de Línea
+68,12,2018-09-13,Chef Ejecutivo
+68,160,2016-03-05,Chef de Línea
+68,104,2021-02-27,Chef de Línea
+69,115,2018-05-25,Chef Principal
+69,74,2020-04-28,Sous Chef
+69,165,2023-11-15,Sous Chef
+70,122,2022-03-08,Chef Pastelero
+71,196,2018-07-26,Chef Pastelero
+71,83,2018-03-14,Chef Pastelero
+71,76,2022-08-24,Chef Pastelero
+72,102,2015-06-12,Chef de Línea
+73,88,2021-03-11,Chef Principal
+73,189,2020-09-09,Chef Principal
+73,87,2017-02-20,Chef de Partida
+74,96,2023-06-11,Chef Principal
+74,107,2017-08-06,Sous Chef
+74,73,2020-03-25,Chef Principal
+75,79,2015-10-18,Chef Principal
+75,22,2024-03-30,Chef de Partida
+76,94,2020-04-20,Chef Pastelero
+76,39,2015-07-29,Chef Ejecutivo
+77,89,2019-05-16,Chef Pastelero
+77,99,2023-06-26,Chef de Línea
+77,42,2021-05-01,Chef de Línea
+78,139,2015-08-21,Chef de Partida
+79,116,2024-01-22,Chef de Línea
+80,7,2015-07-04,Chef de Línea
+81,66,2017-09-02,Chef Ejecutivo
+81,102,2019-09-27,Chef Principal
+82,183,2015-06-10,Chef Pastelero
+82,105,2022-09-11,Chef Pastelero
+83,80,2017-04-03,Sous Chef
+83,145,2017-09-04,Chef Pastelero
+83,200,2018-10-03,Chef de Partida
+84,138,2020-11-02,Sous Chef
+84,54,2023-02-20,Sous Chef
+84,132,2017-07-17,Chef Principal
+85,68,2021-07-09,Sous Chef
+86,40,2020-09-24,Chef de Partida
+86,92,2021-06-25,Chef Principal
+86,74,2016-11-05,Chef de Línea
+87,45,2024-01-18,Chef Pastelero
+87,191,2019-10-26,Chef Pastelero
+87,3,2018-08-11,Sous Chef
+88,128,2020-01-11,Chef Principal
+88,157,2023-08-16,Chef Ejecutivo
+89,146,2015-03-29,Chef Ejecutivo
+90,138,2015-12-04,Chef Ejecutivo
+91,6,2017-04-20,Sous Chef
+92,108,2016-01-04,Chef Pastelero
+92,103,2021-04-15,Chef Ejecutivo
+92,105,2020-09-12,Chef Principal
+93,104,2022-10-13,Chef de Línea
+93,66,2022-11-24,Chef de Línea
+93,79,2015-10-12,Chef Pastelero
+94,127,2022-10-16,Chef Pastelero
+95,89,2016-08-28,Chef Principal
+95,1,2021-10-30,Chef de Partida
+96,91,2015-09-13,Chef Ejecutivo
+97,35,2024-02-12,Chef de Línea
+98,93,2017-04-04,Chef de Partida
+99,117,2018-09-04,Chef de Línea
+100,124,2015-10-27,Chef de Línea

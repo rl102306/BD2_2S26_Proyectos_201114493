@@ -1,0 +1,16 @@
+tipoId,nombre,descripcion
+1,Mexicana,Cocina tradicional mexicana con sabores intensos y variados
+2,Italiana,"Pastas, pizzas y platos mediterráneos clásicos"
+3,Japonesa,"Sushi, ramen y cocina tradicional japonesa"
+4,China,Amplia variedad de platos de las regiones de China
+5,Francesa,Alta cocina y técnicas culinarias refinadas
+6,Peruana,"Ceviche, lomo saltado y fusión andina"
+7,Tailandesa,"Curry, pad thai y sabores del sudeste asiático"
+8,India,"Especias aromáticas, curry y tandoori"
+9,Española,"Tapas, paella y cocina mediterránea"
+10,Colombiana,"Bandeja paisa, arepas y sabores caribeños"
+11,Coreana,"BBQ coreano, kimchi y bibimbap"
+12,Griega,"Gyros, moussaka y cocina del Mediterráneo oriental"
+13,Argentina,"Asados, empanadas y cocina del Río de la Plata"
+14,Vegana,Cocina 100% basada en plantas
+15,Fusión,Mezcla creativa de diversas tradiciones culinarias
