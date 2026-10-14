@@ -3,13 +3,6 @@
 **Curso:** SBD2 - 2S2026 | **Carné:** 201114493
 
 ---
-
-## Diagrama Conceptual del Modelo
-
-![Diagrama Conceptual del Modelo de Grafos](imagenes/diagrama_modelo.png)
-
----
-
 ## 1. Requisitos Previos
 
 - **Neo4j Desktop 5.x** o **Neo4j Community Edition 5.x** instalado
