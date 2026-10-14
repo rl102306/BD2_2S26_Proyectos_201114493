@@ -31,19 +31,9 @@
 | **TRABAJA_EN** | Chef | Restaurante | fecha_inicio (STRING), puesto (STRING) | Empleo actual del chef en un restaurante |
 | **LE_GUSTA** | Usuario | TipoCocina | nivel_interes (INT 1-5) | Preferencia declarada del usuario |
 
-### 1.3 Diagrama del Modelo
+### 1.3 Diagrama Conceptual del Modelo
 
-```
-    (Usuario)---[CALIFICO]--->(Restaurante)---[PERTENECE_A]--->(TipoCocina)
-       |  \                      ^    |                            ^
-       |   \                     |    |                            |
-  [VISITO]  [ES_AMIGO_DE]  [TRABAJA_EN] [OFRECE]            [LE_GUSTA]
-       |         |               |    |                            |
-       v         v               |    v                            |
-  (Restaurante) (Usuario)    (Chef)  (Platillo)<---[PREPARA]---(Chef)
-                                                                   |
-                                                              (Usuario)
-```
+![Diagrama Conceptual del Modelo de Grafos](imagenes/diagrama_modelo.png)
 
 ### 1.4 Reglas de Negocio
 
