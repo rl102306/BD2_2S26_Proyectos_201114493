@@ -33,7 +33,7 @@
 
 ### 1.3 Diagrama Conceptual del Modelo
 
-![Diagrama Conceptual del Modelo de Grafos](imagenes/diagrama_modelo.png)
+![Diagrama Conceptual del Modelo de Grafos](diagrama_modelo.png)
 
 ### 1.4 Reglas de Negocio
 
